@@ -42,4 +42,5 @@ else
   turn(board)
 
 end
+display(board)
 end

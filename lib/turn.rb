@@ -38,6 +38,8 @@ def turn(board)
 
 if valid_move?(board, 0) == true
   move(board, 0, token = "X")
+else
+  turn(board)
 
 end
 end

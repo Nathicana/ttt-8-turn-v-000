@@ -40,7 +40,7 @@ if valid_move?(board, 0) == true
   move(board, 0, token = "X")
   display_board(board)
 else
-  turn(board)
+  turn
 
 end
 end
